@@ -29,13 +29,17 @@ Let |w> denote winning state , |s> denote super position state.
 |s'> denote state perpendicular to |w> in a way |w> component removed from |s>.
 
 Initial state.
+
 <img src='grover_step1.jpg'>
 
-After Oracle treatment the amplitude of |11> flips.
+Going through Oracle
+Oarcle will flip amplitude of winning state(|w>) here |11>.
+
 <img src='grover_step2.jpg'>
 
 After Grover's  Diffusion
 The |s> formed after Oracle treatment is reflected along inital |s> , making it closer towards winning state.
+
 <img src='grover_step3.jpg'>
 
 Inorder to find reflection , one way of thinking is adding a negative phase π to all except |11>.
