@@ -32,12 +32,12 @@ Initial state.
 
 <img src='grover_step1.jpg'>
 
-Going through Oracle
-Oarcle will flip amplitude of winning state(|w>) here |11>.
+Going through Oracle<br>
+Oracle will flip amplitude of winning state(|w>) here |11>.
 
 <img src='grover_step2.jpg'>
 
-After Grover's  Diffusion
+After Grover's  Diffusion<br>
 The |s> formed after Oracle treatment is reflected along inital |s> , making it closer towards winning state.
 
 <img src='grover_step3.jpg'>
