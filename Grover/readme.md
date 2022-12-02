@@ -17,7 +17,7 @@ Since we are finding |11> , we used CZ gate.So sign of |11> will be revesed.
         oracle.cz(1,0)
         oracle.to_gate()
 
-        <img src='czgate.png' width='100px'>
+<img src='czgate.png' width='100px'>
 
 ### Amplitude amplification
 It will increase the probability of target state.
