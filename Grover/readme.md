@@ -71,12 +71,13 @@ Since we used 2 qubit system. One iteration is enough.
         grover_circ.measure([0,1],[0,1])
         grover_circ.draw()
 
-Result in qasm_simulator
+Result in qasm_simulator<br>
+All measurement falls to winning state |11>.
 <div style="width:100%;background:'white'">
 <img src='qasm.png'style="background-color:'white'">
 </div>
-Result in ibm_oslo -- IBM Quatum Computer
+Result in ibm_oslo -- IBM Quatum Computer<br>
+Little deveations because of quatum noise.
 <div style="width:100%;background:'white'">
 <img src='oslo.png'style="background-color:'white'">
 </div>
-Little deveations because of quatum noise.
