@@ -18,8 +18,10 @@ Since we are finding |11> , we used CZ gate.So sign of |11> will be revesed.
         oracle.to_gate()
         oracle.draw()
 
+<div style="display:flex">
 <img src='czgate_py.png' width='100px'>
-<img src='czgate.png' width='100px'>
+<img src='czgate.png' width='100px' style='margin-left:20px'>
+</div>
 
 ### Amplitude amplification
 It will increase the probability of target state.
@@ -57,7 +59,7 @@ Inorder to find reflection , one way of thinking is adding a negative phase π t
         diffusion.draw()
 <div style="display:flex">
 <img src='diffusion_py.png' width='200px'>
-<img src='diffusion.png' width='200px'>
+<img src='diffusion.png' width='200px' style="margin-left:20px">
 </div>
 
 ### Grover's Iter
