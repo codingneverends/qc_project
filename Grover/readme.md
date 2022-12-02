@@ -55,9 +55,10 @@ Inorder to find reflection , one way of thinking is adding a negative phase π t
         diffusion.h([0,1])
         diffusion.to_gate()
         diffusion.draw()
-
-<img src='diffusion_py.png' width='100px'>
-<img src='diffusion.png' width='100px'>
+<div style="display:flex">
+<img src='diffusion_py.png' width='200px'>
+<img src='diffusion.png' width='200px'>
+</div>
 
 ### Grover's Iter
 Both Oracle and Diffusion together is groover's iter.Probabilty of winning state(|w>) will be max after √N iterations.
