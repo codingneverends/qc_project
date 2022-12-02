@@ -71,6 +71,7 @@ Both Oracle and Diffusion together is groover's iter.Probabilty of winning state
         grover_iter.draw()
 
 <img src='iter.png' width='300px'>
+<img src='iter_py.png' width='300px'>
 
 ### Implmenting
 Since we used 2 qubit system. One iteration is enough.
@@ -82,6 +83,7 @@ Since we used 2 qubit system. One iteration is enough.
         grover_circ.draw()
 
 <img src='circ.png' width='400px'>
+<img src='circ_py.png' width='400px'>
 
 Result in qasm_simulator<br>
 All measurement falls to winning state |11>.
