@@ -67,7 +67,7 @@ Since we used 2 qubit system. One iteration is enough.
         grover_circ.draw()
 
 Result in qasm_simulator
-<img src='qqsm.png'>
+<img src='qasm.png'>
 Result in ibm_oslo -- IBM Quatum Computer
 <img src='oslo.png'>
 Little deveations because of quatum noise.
