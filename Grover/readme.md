@@ -73,10 +73,10 @@ Since we used 2 qubit system. One iteration is enough.
 
 Result in qasm_simulator
 <div style="width:100%;background:'white'">
-<img src='qasm.png'style="background:'white'">
+<img src='qasm.png'style="background-color:'white'">
 </div>
 Result in ibm_oslo -- IBM Quatum Computer
 <div style="width:100%;background:'white'">
-<img src='oslo.png'style="background:'white'">
+<img src='oslo.png'style="background-color:'white'">
 </div>
 Little deveations because of quatum noise.
