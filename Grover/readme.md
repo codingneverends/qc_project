@@ -33,6 +33,13 @@ There is a simple geometrical version of explanation is there . Let's go with th
 Let |w> denote winning state , |s> denote super position state.
 |s'> denote state perpendicular to |w> in a way |w> component removed from |s>.
 
+In our case 
+
+        |w>  = [0,0,0,1]
+        |s>  = (1/2)*[1,1,1,1]
+        |s'> = (1/√3)*[1,1,1,0]
+        |w>.|s'>=0
+
 Initial state.
 
 <img src='images/grover_step1.jpg'>
