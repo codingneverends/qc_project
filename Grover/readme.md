@@ -16,7 +16,9 @@ Since we are finding |11> , we used CZ gate.So sign of |11> will be revesed.
         oracle = QuantumCircuit(2,name='Oracle')
         oracle.cz(1,0)
         oracle.to_gate()
+        oracle.draw()
 
+<img src='czgate_py.png' width='100px'>
 <img src='czgate.png' width='100px'>
 
 ### Amplitude amplification
@@ -53,6 +55,9 @@ Inorder to find reflection , one way of thinking is adding a negative phase π t
         diffusion.h([0,1])
         diffusion.to_gate()
         diffusion.draw()
+
+<img src='diffusion_py.png' width='100px'>
+<img src='diffusion.png' width='100px'>
 
 ### Grover's Iter
 Both Oracle and Diffusion together is groover's iter.Probabilty of winning state(|w>) will be max after √N iterations.
