@@ -24,7 +24,7 @@ It will increase the probability of target state.
 2S>&lt;S - I is the reflection operator.
 Grover's Diffusion is reflection operator sandwitched in hadamard (H 2S>&lt;S - I H ).
 
-### Gemotrical Intrepretation
+### Geometrical Intrepretation
 There is a simple geometrical version of explanation is there . Let's go with that.
 Let |w> denote winning state , |s> denote super position state.
 |s'> denote state perpendicular to |w> in a way |w> component removed from |s>.
