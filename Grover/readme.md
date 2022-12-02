@@ -19,8 +19,8 @@ Since we are finding |11> , we used CZ gate.So sign of |11> will be revesed.
         oracle.draw()
 
 <div style="display:flex">
-<img src='czgate_py.png' width='100px'>
-<img src='czgate.png' width='100px' style='margin-left:20px'>
+<img src='images/czgate_py.png' width='100px'>
+<img src='images/czgate.png' width='100px' style='margin-left:20px'>
 </div>
 
 ### Amplitude amplification
@@ -35,17 +35,17 @@ Let |w> denote winning state , |s> denote super position state.
 
 Initial state.
 
-<img src='grover_step1.jpg'>
+<img src='images/grover_step1.jpg'>
 
 Going through Oracle<br>
 Oracle will flip amplitude of winning state(|w>) here |11>.
 
-<img src='grover_step2.jpg'>
+<img src='images/grover_step2.jpg'>
 
 After Grover's  Diffusion<br>
 The |s> formed after Oracle treatment is reflected along inital |s> , making it closer towards winning state.
 
-<img src='grover_step3.jpg'>
+<img src='images/grover_step3.jpg'>
 
 Inorder to find reflection , one way of thinking is adding a negative phase π to all except |11>.
 
@@ -58,8 +58,8 @@ Inorder to find reflection , one way of thinking is adding a negative phase π t
         diffusion.to_gate()
         diffusion.draw()
 <div style="display:flex">
-<img src='diffusion_py.png' width='200px'>
-<img src='diffusion.png' width='200px' style="margin-left:20px">
+<img src='images/diffusion_py.png' width='200px'>
+<img src='images/diffusion.png' width='200px' style="margin-left:20px">
 </div>
 
 ### Grover's Iter
@@ -70,8 +70,8 @@ Both Oracle and Diffusion together is groover's iter.Probabilty of winning state
         grover_iter.append(diffusion,[0,1])
         grover_iter.draw()
 
-<img src='iter.png' width='300px'>
-<img src='iter_py.png' width='300px'>
+<img src='images/iter.png' width='300px'>
+<img src='images/iter_py.png' width='300px'>
 
 ### Implmenting
 Since we used 2 qubit system. One iteration is enough.
@@ -82,16 +82,16 @@ Since we used 2 qubit system. One iteration is enough.
         grover_circ.measure([0,1],[0,1])
         grover_circ.draw()
 
-<img src='circ.png' width='400px'>
-<img src='circ_py.png' width='400px'>
+<img src='images/circ.png' width='400px'>
+<img src='images/circ_py.png' width='400px'>
 
 Result in qasm_simulator<br>
 All measurement falls to winning state |11>.
 <div style="width:100%;background:'white'">
-<img src='qasm.png'style="background-color:'white'">
+<img src='images/qasm.png'style="background-color:'white'">
 </div>
 Result in ibm_oslo -- IBM Quatum Computer<br>
 Little deveations because of quatum noise.
 <div style="width:100%;background:'white'">
-<img src='oslo.png'style="background-color:'white'">
+<img src='images/oslo.png'style="background-color:'white'">
 </div>
