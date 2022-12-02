@@ -38,7 +38,7 @@ In our case
         |w>  = [0,0,0,1]
         |s>  = (1/2)*[1,1,1,1]
         |s'> = (1/√3)*[1,1,1,0]
-        |w>.|s'>=0
+        <w|s'> = 0 , means |w> ans |s'> are perpendicular
 
 Initial state.
 
